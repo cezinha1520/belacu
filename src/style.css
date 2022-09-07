@@ -234,3 +234,30 @@ header{
     width:88%;
     height:100%;
 }
+.container-warranty{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin-bottom: var(--margin-sections);
+}
+.tittle-warranty{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+    line-height: var(--line-height-title);
+    padding: var(--pading-subtitles-title);
+}
+.img-warranty{
+    margin: 0 auto;
+    width: 70%;
+    padding: var(--margin-elements) 0;
+}
+.text-warranty{
+    color: var(--color-brown);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    text-align: var(--align-texts);
+    padding: 0 1.2rem;
+}

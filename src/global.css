@@ -52,3 +52,6 @@
 :hover.general-button{
     background-color: var(--color-hover-buttons);
 }
+.bold-font{
+    font-weight: 700;
+}
