@@ -1,0 +1,236 @@
+
+header{
+    height: 4.5rem;
+    max-width: var(--max-width);
+    background-color: var(--color-brown);
+    box-shadow: 0px 0px 4px 0px #532717B8;
+}
+.container-menu{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo-menu{
+    position: relative;
+    top: 3px;
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+.button-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 40%;
+    background-color: var(--color-golden);
+    color: var(--color-white);
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: var(--border-radius-buttons);
+    cursor: pointer;
+}
+:hover.button-menu{
+    background-color: var(--color-hover-buttons);
+}
+.container-product{
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--margin-sections);
+}
+.img-product{
+    height: 20.063rem;
+    width: 13.438rem;
+    margin: var(--margin-elements) 0;
+}
+.title-product{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+}
+.product-review{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: .1rem 0 1rem 0;
+    align-items: center;
+    gap: 0.5rem;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+.text-stars{
+    font-weight: 400;
+    color: var(--color-brown);
+    font-size: 0.938rem;
+}
+.text-product{
+    color: var(--color-brown);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    padding: var(--pading-subtitles-title);
+    text-align: var(--align-texts);
+    margin-bottom: var(--margin-elements);
+}
+.anvisa-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: var(--max-width);
+    align-items: center;
+    margin-bottom: var(--margin-sections);
+}
+.img-anvisa{
+    width: 25%;
+    height: auto;
+    margin-bottom: var(--margin-elements);
+}
+.text-anvisa{
+    font-size: 0.938rem;
+    font-weight: 300;
+    color: var(--color-brown);
+    text-align: var(--align-texts);
+    padding: var(--pading-subtitles-title);
+}
+.about-product-container{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    align-items: center;
+}
+.title-about-product{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var(--font-weight-titles);
+    text-align: var(--align-texts);
+    margin-bottom: var(--margin-elements);
+    line-height: var(--line-height-title);
+    padding: var(--pading-subtitles-title);
+}
+.img-about-product{
+    width: 10.063rem;
+    height: 15.188rem;
+    margin: var(--margin-elements) 0;
+}
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: var(--margin-sections);
+}
+.accordion{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--color-grey);
+    color: var(--color-brown);
+    cursor: pointer;
+    padding: 1.4rem 0;
+    width: 100%;
+    text-align: left;
+    font-size: var(--font-size-subtitles);
+    transition: 0.4s;
+    font-weight: var(--font-weight-subtitles);
+}
+.panel{
+    padding: 0 .6rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: var(--line);
+}
+.panel > p{
+    padding-bottom: 1rem;
+    font-size: .9rem;
+    color: var(--color-brown);
+    font-weight: 400;
+}
+.accordion:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    float: left;
+    margin-right: 1rem;
+}
+.active:after {
+    content: "\f107";
+}
+.benefits-container{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin-bottom: var(--margin-sections);
+}
+.title-benefits{
+    display: flex;
+    align-items: center;
+    height: 8.25rem;
+    width: 100%;
+    background-color: var(--color-golden);
+    font-size: var(--font-size-titles);
+    color: var(--color-white);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+    padding: var(--pading-subtitles-title);
+    line-height: var(--line-height-title);
+    margin-bottom: var(--margin-elements);
+}
+.benefits{
+    padding: 0 1.2rem;
+    margin-bottom: var(--margin-elements);
+}
+.subtitle-benefits{
+    font-size: var(--font-size-subtitles);
+    color: var(--color-brown);
+    font-weight: var(--font-weight-subtitles);
+    margin-bottom: .5rem;
+}
+.text-benefits{
+    color: var(--color-brown);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    border-bottom: var(--line);
+    padding-bottom: 1rem;
+}
+.container-depositions{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin-bottom: var(--margin-sections);
+}
+.title-depositions{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+    line-height: var(--line-height-title);
+    padding: var(--pading-subtitles-title);
+}
+.depositions{
+    margin-top: var(--margin-elements);
+}
+.depositions > div{
+    display: flex;
+    justify-content: center;
+    padding:56.25% 0 0 0;
+    position:relative;
+    margin: 0 auto;
+}
+.depositions > div > iframe{
+    position:absolute;
+    top:0;
+    width:88%;
+    height:100%;
+}
