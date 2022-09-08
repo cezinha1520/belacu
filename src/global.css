@@ -12,12 +12,12 @@
     --font-family-subtitles: 'Montserrat', sans-serif;
     --font-weight-subtitles: 800;
     --font-size-subtitles: 1.063rem;
-    --pading-subtitles-title: 0 0.7rem;
+    --pading-subtitles-title: 0 0.8rem;
     --line-height-subtitles: 95%;
 
     --font-weight-paragraph: 500;
     --font-size-paragraph: 1.063rem;
-    --line-height-paragraph: 95%;
+    --line-height-paragraph: 1.4rem;
 
     --line: .03rem solid var(--color-brown);
 

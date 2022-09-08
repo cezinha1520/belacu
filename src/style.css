@@ -45,7 +45,7 @@ header{
 }
 .img-product{
     height: 20.063rem;
-    width: 13.438rem;
+    width: auto;
     margin: var(--margin-elements) 0;
 }
 .title-product{
@@ -117,7 +117,7 @@ header{
     padding: var(--pading-subtitles-title);
 }
 .img-about-product{
-    width: 10.063rem;
+    width: auto;
     height: 15.188rem;
     margin: var(--margin-elements) 0;
 }
@@ -247,7 +247,7 @@ header{
     font-weight: var( --font-weight-titles);
     text-align: var(--align-texts);
     line-height: var(--line-height-title);
-    padding: var(--pading-subtitles-title);
+    padding: 0 var(--pading-subtitles-title);
     margin-top: 3rem;
 }
 .img-warranty{
@@ -286,7 +286,6 @@ header{
     line-height: var(--line-height-paragraph);
     text-align: var(--align-texts);
     padding: var(--pading-subtitles-title);  
-    margin-bottom: 1rem;
 }
 .img-products{
     display: block;
@@ -301,13 +300,13 @@ header{
     margin-bottom: var(--margin-sections);
 }
 .title-faq{
-    font-size: var(--font-size-titles);
+    font-size: 1.8rem;
     color: var(--color-brown);
     font-weight: var( --font-weight-titles);
     text-align: var(--align-texts);
     line-height: var(--line-height-title);
     padding: var(--pading-subtitles-title);
-    margin-bottom: var(--margin-elements);
+    margin-bottom: 2rem;
 }
 .faq{
     padding: 0 1.2rem;
