@@ -239,6 +239,7 @@ header{
     flex-direction: column;
     max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
+    background-color: var(--color-white);
 }
 .tittle-warranty{
     font-size: var(--font-size-titles);
@@ -247,6 +248,7 @@ header{
     text-align: var(--align-texts);
     line-height: var(--line-height-title);
     padding: var(--pading-subtitles-title);
+    margin-top: 3rem;
 }
 .img-warranty{
     margin: 0 auto;
@@ -260,4 +262,78 @@ header{
     line-height: var(--line-height-paragraph);
     text-align: var(--align-texts);
     padding: 0 1.2rem;
+    margin-bottom: 3rem;
+}
+.contanier-offers{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin-bottom: var(--margin-sections);
+}
+.title-offers{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+    line-height: var(--line-height-title);
+    padding: var(--pading-subtitles-title);
+    margin-bottom: var(--margin-elements);
+}
+.subtitle-offers{
+    color: var(--color-brown);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    text-align: var(--align-texts);
+    padding: var(--pading-subtitles-title);  
+    margin-bottom: 1rem;
+}
+.img-products{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin-bottom: var(--margin-sections);
+}
+.title-faq{
+    font-size: var(--font-size-titles);
+    color: var(--color-brown);
+    font-weight: var( --font-weight-titles);
+    text-align: var(--align-texts);
+    line-height: var(--line-height-title);
+    padding: var(--pading-subtitles-title);
+    margin-bottom: var(--margin-elements);
+}
+.faq{
+    padding: 0 1.2rem;
+    margin-bottom: var(--margin-elements);
+}
+.subtitle-faq{
+    font-size: var(--font-size-subtitles);
+    color: var(--color-brown);
+    font-weight: var(--font-weight-subtitles);
+    margin-bottom: .5rem;
+}
+.text-faq{
+    color: var(--color-brown);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-paragraph);
+    line-height: var(--line-height-paragraph);
+    border-bottom: var(--line);
+    padding-bottom: 1rem;
+}
+.container-footer{
+    background-color: var(--color-golden);
+    padding: 3rem 1.5rem;
+}
+.information-footer{
+    color: var(--color-grey);
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 300;
 }
