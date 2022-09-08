@@ -1,0 +1,337 @@
+
+@charset "UTF-8";
+
+/*==========HEADLINE==========*/
+.bg-headline-vsl{
+    background-image: url("../img/AnyConv.com__bg-headline-vsl.webp");
+    width: 100%;
+    padding-bottom: 45px;
+}
+
+#pessoas-assistindo{
+    text-align: center;
+    padding: 45px 8px 0px 8px;
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 23px;
+    color: #7c4b38dc;
+}
+
+.exclusivo{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 85%;
+}
+
+.som{
+    display: block;
+    margin: auto;
+    width: 65%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/*==========HEADLINE==========*/
+
+
+/*========DEPOIMENTOS-VIDEOS========*/
+
+.depoimentos{
+    width: 100%;
+    padding-bottom: 50px;
+    background-image: url('../img/AnyConv.com__bg-depoimentos.webp');
+}
+
+.headline-depoimentos{
+    margin: auto;
+    width: 75%;
+    margin-top: 50px;
+}
+
+.dp-01{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.dp-02{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+/*========DEPOIMENTOS-VIDEOS========*/
+
+
+/*========DEPOIMENTOS-IMAGENS========*/
+
+
+.imagens-depoimento{
+    margin: auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+/*========DEPOIMENTOS========*/
+
+
+/*========BULLET========*/
+
+.bg-bullet-oferta{
+    background-image: url('../img/AnyConv.com__bg-bullets-oferta.webp');
+    width: 100%;
+    padding-bottom: 85px;
+    padding-top: 150p;
+}
+
+.bullet{
+    padding: 0px 20px;
+}
+
+.headline-bullet{
+    display: block;
+    margin: auto;
+    width: 95%;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-bullet{
+    height: 18px;
+    width: 18px;
+}
+
+.conteudo-bullet{
+    color: #704532e3;
+    font-size: 1.3em;
+    margin-left: 8px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.ajustes-bullet{
+    margin-bottom: 30px;
+    padding: 0px 10px;
+}
+
+/*========BULLET========*/
+
+
+/*========OFERTA========*/
+
+.oferta{
+    width: 100%;
+    padding-bottom: 60px;
+    background-image: url('../img/AnyConv.com__bg-bullets-oferta.webp');
+}
+
+.img-oferta{
+    margin: auto;
+    width: 95%;
+    padding: 0px 15px;
+}
+
+/*========OFERTA========*/
+
+
+/*========BÔNUS========*/
+
+.bg-bonus-01{
+    width: 100%;
+    background-image: url('../img/AnyConv.com__bg-bonus-01.webp')
+}
+
+.headline-bonus-01{
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.bg-bonus-02{
+    padding: 30px 25px 0px 25px;
+    width: 100%;
+    background-image: url('../img/AnyConv.com__bg-bonus-02.webp')
+}
+
+.tl-bonus{
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #704532;
+    text-transform: uppercase;
+}
+
+.tx-bonus{
+    font-size: 1.1em;
+    color: #7C4B38;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+hr{
+    color: #814b4b;
+}
+
+/*========BÔNUS========*/
+
+
+/*========GARANTIA========*/
+
+.garantia{
+    padding-bottom: 75px;
+    width: 100%;
+    background-image: url('../img/AnyConv.com__bg-garantia.webp');
+}
+
+.selo-garantia{
+    margin: auto;
+    margin-top: 60px;
+    width: 80%;
+}
+
+strong{
+    color: #D9AC59;
+    font-weight: 900;
+}
+
+.titulo-destaque-garantia{
+    color: #D9AC59;
+}
+
+.texto-garantia{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    color: #7C4B38;
+    padding: 0px 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+/*========GARANTIA========*/
+
+
+/*========FAQ========*/
+
+.faq{
+    padding: 0px 5px 0px 5px;
+    padding-bottom: 60px;
+    width: 100%;
+    background-image: url('../img/AnyConv.com__bg-faq.webp');
+}
+
+.headline-faq{
+    display: block;
+    margin: auto;
+    width: 95%;
+    margin-bottom: 40px;
+}
+
+.titulo-faq{
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #704532;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.conteudo-faq{
+    font-size: 1em;
+    color: #815D4B;
+    padding: 0px 10px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: #814b4b;
+}
+
+/*========FAQ========*/
+
+
+/*========SUPORTE========*/
+
+.suporte-01{
+    margin: auto;
+    width: 100%;
+}
+
+.suporte-02{
+    background-image: url('../img/AnyConv.com__bg-suporte-02.webp');
+    margin: auto;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.texto-botao-suporte{
+    padding: 20px 10px 0px 10px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+    color: #704532;
+}
+
+/*========SUPORTE========*/
+
+
+/*========RODA-PÉ========*/
+
+.direitos{
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: 600;
+    color: #A67E6B;
+}
+
+.roda-pe{
+    width: 100%;
+    background-image: url('../img/AnyConv.com__bg-rodape.webp');
+}
+
+.polita-e-provacidade{
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.politica{
+    text-decoration: underline;
+    color: #A67E6B;
+}
+
+.politica:hover{
+    color: #c09885;
+}
+
+.termo{
+    text-decoration: underline;
+    color: #A67E6B;
+}
+
+.termo:hover{
+    color: #c09885;
+}
+
+.texto-roda-pe{
+    font-size: 0.9em;
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A67E6B;
+}
+
+/*========RODA-PÉ========*/
