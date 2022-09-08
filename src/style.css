@@ -327,6 +327,7 @@ header{
     padding-bottom: 1rem;
 }
 .container-footer{
+    max-width: var(--max-width);
     background-color: var(--color-golden);
     padding: 3rem 1.5rem;
 }
