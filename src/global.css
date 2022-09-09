@@ -1,5 +1,5 @@
 :root{
-    --color-brown: #8c3e6c;
+    --color-brown: #8c533e;
     --color-golden: #C5A973;
     --color-grey: #f2f2f2;
     --color-white: #ffffff;
@@ -36,18 +36,25 @@
 
 .buttons{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 4.375rem;
     margin: 0 auto;
-    width: 85%;
+    width: 90%;
     background-color: var(--color-golden);
     color: var(--color-grey);
-    font-weight: var;
-    font-size: 1.563rem;
-    font-weight: 700;
+    font-size: 1.1rem;
+    font-weight: 800;
     border-radius: var(--border-radius-buttons);
     text-align: var(--align-texts);
+    padding: 2.5rem 0;
+}
+.span-buttons{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: .2rem;
+    line-height: 1rem;
 }
 :hover.general-button{
     background-color: var(--color-hover-buttons);

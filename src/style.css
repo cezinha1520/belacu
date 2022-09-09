@@ -1,9 +1,11 @@
-
 header{
     height: 4.5rem;
     max-width: var(--max-width);
     background-color: var(--color-brown);
     box-shadow: 0px 0px 4px 0px #532717B8;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .container-menu{
     max-width: 100%;
@@ -29,7 +31,7 @@ header{
     background-color: var(--color-golden);
     color: var(--color-white);
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 300;
     border-radius: var(--border-radius-buttons);
     cursor: pointer;
 }
@@ -46,7 +48,8 @@ header{
 .img-product{
     height: 20.063rem;
     width: auto;
-    margin: var(--margin-elements) 0;
+    margin-top: 6rem;
+    margin-bottom: var(--margin-elements);
 }
 .title-product{
     font-size: var(--font-size-titles);
@@ -202,37 +205,25 @@ header{
     font-weight: var(--font-weight-paragraph);
     line-height: var(--line-height-paragraph);
     border-bottom: var(--line);
-    padding-bottom: 1rem;
+    padding-bottom: .8rem;
 }
-.container-depositions{
+.container-media{
     display: flex;
     flex-direction: column;
     max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
+    padding-top: 1.5rem;
 }
-.title-depositions{
-    font-size: var(--font-size-titles);
+.title-media{
+    font-size: 1.2rem;
     color: var(--color-brown);
-    font-weight: var( --font-weight-titles);
+    font-weight: var( --font-weight-paragraph);
     text-align: var(--align-texts);
-    line-height: var(--line-height-title);
-    padding: var(--pading-subtitles-title);
 }
-.depositions{
-    margin-top: var(--margin-elements);
-}
-.depositions > div{
-    display: flex;
-    justify-content: center;
-    padding:56.25% 0 0 0;
-    position:relative;
+.img-media{
+    width: 90%;
+    height: 3rem;
     margin: 0 auto;
-}
-.depositions > div > iframe{
-    position:absolute;
-    top:0;
-    width:88%;
-    height:100%;
 }
 .container-warranty{
     display: flex;
