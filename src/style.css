@@ -48,16 +48,8 @@ header{
     margin-bottom: var(--margin-sections);
 }
 .img-product{
-    height: 20.063rem;
-    width: auto;
     margin-top: 6rem;
     margin-bottom: var(--margin-elements);
-}
-.title-product{
-    font-size: var(--font-size-titles);
-    color: var(--color-brown);
-    font-weight: var( --font-weight-titles);
-    text-align: var(--align-texts);
 }
 .product-review{
     display: flex;
@@ -78,12 +70,6 @@ header{
     font-size: 0.938rem;
 }
 .text-product{
-    color: var(--color-brown);
-    font-size: var(--font-size-paragraph);
-    font-weight: var(--font-weight-paragraph);
-    line-height: var(--line-height-paragraph);
-    padding: var(--pading-subtitles-title);
-    text-align: var(--align-texts);
     margin-bottom: var(--margin-elements);
 }
 .anvisa-container{
@@ -95,8 +81,6 @@ header{
     margin-bottom: var(--margin-sections);
 }
 .img-anvisa{
-    width: 25%;
-    height: auto;
     margin-bottom: var(--margin-elements);
 }
 .text-anvisa{
@@ -113,17 +97,9 @@ header{
     align-items: center;
 }
 .title-about-product{
-    font-size: var(--font-size-titles);
-    color: var(--color-brown);
-    font-weight: var(--font-weight-titles);
-    text-align: var(--align-texts);
     margin-bottom: var(--margin-elements);
-    line-height: var(--line-height-title);
-    padding: var(--pading-subtitles-title);
 }
 .img-about-product{
-    width: auto;
-    height: 15.188rem;
     margin: var(--margin-elements) 0;
 }
 .accordion-container{
@@ -177,19 +153,14 @@ header{
     max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
 }
-.title-benefits{
+#title-benefits{
     display: flex;
     align-items: center;
     height: 8.25rem;
     width: 100%;
     background-color: var(--color-golden);
-    font-size: var(--font-size-titles);
-    color: var(--color-white);
-    font-weight: var( --font-weight-titles);
-    text-align: var(--align-texts);
-    padding: var(--pading-subtitles-title);
-    line-height: var(--line-height-title);
     margin-bottom: var(--margin-elements);
+    color: var(--color-grey);
 }
 .benefits{
     padding: 0 1.2rem;
@@ -235,12 +206,6 @@ header{
     background-color: var(--color-white);
 }
 .tittle-warranty{
-    font-size: var(--font-size-titles);
-    color: var(--color-brown);
-    font-weight: var( --font-weight-titles);
-    text-align: var(--align-texts);
-    line-height: var(--line-height-title);
-    padding: 0 var(--pading-subtitles-title);
     margin-top: 3rem;
 }
 .img-warranty{
@@ -249,11 +214,6 @@ header{
     padding: var(--margin-elements) 0;
 }
 .text-warranty{
-    color: var(--color-brown);
-    font-size: var(--font-size-paragraph);
-    font-weight: var(--font-weight-paragraph);
-    line-height: var(--line-height-paragraph);
-    text-align: var(--align-texts);
     padding: 0 1.2rem;
     margin-bottom: 3rem;
 }
@@ -264,12 +224,6 @@ header{
     margin-bottom: var(--margin-sections);
 }
 .title-offers{
-    font-size: var(--font-size-titles);
-    color: var(--color-brown);
-    font-weight: var( --font-weight-titles);
-    text-align: var(--align-texts);
-    line-height: var(--line-height-title);
-    padding: var(--pading-subtitles-title);
     margin-bottom: var(--margin-elements);
 }
 .subtitle-offers{
@@ -292,13 +246,8 @@ header{
     max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
 }
-.title-faq{
+#title-faq{
     font-size: 1.8rem;
-    color: var(--color-brown);
-    font-weight: var( --font-weight-titles);
-    text-align: var(--align-texts);
-    line-height: var(--line-height-title);
-    padding: var(--pading-subtitles-title);
     margin-bottom: 2rem;
 }
 .faq{
