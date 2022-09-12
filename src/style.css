@@ -1,6 +1,9 @@
+body{
+    max-width: 428px;
+}
 header{
+    max-width: 428px;
     height: 4.5rem;
-    max-width: var(--max-width);
     background-color: var(--color-brown);
     box-shadow: 0px 0px 4px 0px #532717B8;
     position: fixed;
@@ -8,13 +11,12 @@ header{
     left: 0;
 }
 .container-menu{
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    scroll-behavior: smooth;
 }
 .logo-menu{
     position: relative;
@@ -41,7 +43,6 @@ header{
     background-color: var(--color-hover-buttons);
 }
 .container-product{
-    max-width: var(--max-width);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +77,6 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: var(--max-width);
     align-items: center;
     margin-bottom: var(--margin-sections);
 }
@@ -93,7 +93,6 @@ header{
 .about-product-container{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     align-items: center;
 }
 .title-about-product{
@@ -150,12 +149,12 @@ header{
 .benefits-container{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
 }
 #title-benefits{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 8.25rem;
     width: 100%;
     background-color: var(--color-golden);
@@ -183,7 +182,6 @@ header{
 .container-media{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
     padding-top: 1.5rem;
 }
@@ -195,13 +193,12 @@ header{
 }
 .img-media{
     width: 90%;
-    height: 3rem;
+    height: auto;
     margin: 0 auto;
 }
 .container-warranty{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
     background-color: var(--color-white);
 }
@@ -220,7 +217,6 @@ header{
 .contanier-offers{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
 }
 .title-offers{
@@ -237,13 +233,12 @@ header{
 .img-products{
     display: block;
     margin: 0 auto;
-    width: 90%;
+    width: 86%;
     margin-top: 2rem;
 }
 .faq-container{
     display: flex;
     flex-direction: column;
-    max-width: var(--max-width);
     margin-bottom: var(--margin-sections);
 }
 #title-faq{
@@ -269,7 +264,6 @@ header{
     padding-bottom: 1rem;
 }
 .container-footer{
-    max-width: var(--max-width);
     background-color: var(--color-golden);
     padding: 3rem 1.5rem;
 }
