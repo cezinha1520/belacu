@@ -1,0 +1,153 @@
+@media (min-width: 992px){
+    body{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+        height: 5rem;
+        position: inherit;
+    }
+    .container-menu{
+        width: 100%;
+        height: 100%;
+    }
+    .logo-menu{
+        width: 9.5rem;
+    }
+    .button-menu{
+        height: 2.5rem;
+        width: 12rem;
+        font-size: 0.9rem;
+    }
+    .container-product{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .img-product{
+        margin-top: 3rem;
+        width: 25%;
+        height: auto;
+    }
+    .anvisa-container{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .img-anvisa{
+        width: 5rem;
+        height: 5rem;
+    }
+    .text-anvisa{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .about-product-container{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .title-about-product{
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+    .img-about-product{
+        width: 25%;
+        height: auto;
+    }
+    .accordion-container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .accordion{
+        font-size: 1.3rem;
+        transition: 0.4s;
+    }
+    .panel > p{
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .benefits{
+        max-width: 1000px;
+        padding: 0 1.2rem;
+        margin: 0 auto;
+    }
+    .subtitle-benefits{
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
+    .text-benefits{
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .container-media{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--margin-sections);
+        padding-top: 1.5rem;
+    }
+    .title-media{
+        font-size: 1.5rem;
+    }
+    .img-media{
+        width: 50%;
+    }
+    .container-warranty{
+        align-items: center;
+    }
+    .tittle-warranty{
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .img-warranty{
+        margin: 0 auto;
+        width: 30%;
+    }
+    .text-warranty{
+        max-width: 1000px;
+    }
+    .contanier-offers{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .row-offers{
+        display: flex;
+        flex-direction: row;
+    }
+    .title-offers{
+        font-size: 2.3rem;
+    }
+    .subtitle-offers{
+        font-size: 1.3rem;  
+    }
+    .img-products{
+        margin: 2rem 0 3rem 0;
+        display: flex;
+        align-items: center;
+    }
+    .faq-container{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+    #title-faq{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+    .subtitle-faq{
+        font-size: 1.3rem;
+    }
+    .text-faq{
+        font-size: 1.1rem;
+    }
+    .information-footer{
+        color: var(--color-grey);
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
