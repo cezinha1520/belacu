@@ -31,32 +31,6 @@
 
     --align-texts: center;
 }
-
-.buttons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 4.375rem;
-    margin: 0 auto;
-    width: 90%;
-    background-color: var(--color-golden);
-    color: var(--color-grey);
-    font-size: 1.1rem;
-    font-weight: 800;
-    border-radius: var(--border-radius-buttons);
-    text-align: var(--align-texts);
-    padding: 2.5rem 0;
-}
-.span-buttons{
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin-top: .2rem;
-    line-height: 1rem;
-}
-:hover.general-button{
-    background-color: var(--color-hover-buttons);
-}
 .bold-font{
     font-weight: 700;
 }

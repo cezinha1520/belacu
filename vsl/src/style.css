@@ -1,42 +1,86 @@
 body{
-    max-width: 428px;
+    max-width: 500px;
 }
 header{
-    max-width: 428px;
-    height: 7vh;
+    width: 100%;
+    height: 6vh;
     background-color: var(--color-grey);
-    box-shadow: 0px 0px 5px 0px #9b9b9b38;
+    box-shadow: 0px 0px 7px 0px #9b9b9b44;
 }
 .container-menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: 100%;
 }
-.logo-menu{
-    width: 36%;
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo-img{
+    width: 35%;
     height: auto;
     cursor: pointer;
 }
-.spc{
+.news{
+    position: relative;
+    bottom: 3px;
+    font-family: Amiri-Regular;
+    color: var(--color-brown);
+    font-size: 1rem;
+    margin-left: .2rem;
+}
+.space{
     display: block;
-    height: 2.5rem;
+    height: 3rem;
 }
 .vls-container{
-    width: 90%;
+    display: block;
+    width: 85%;
     margin: 0 auto;
 }
 .container-media{
     display: flex;
-    flex-direction: column;
-    margin-bottom: var(--margin-sections);
-    padding-top: 1.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: .5rem;
 }
 .img-media{
-    width: 90%;
+    width: 75%;
     height: auto;
-    margin: 0 auto;
+}
+.container-dr{
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto 2.5rem auto;
+}
+.img-dr{
+    width: 85px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid var(--color-brown);
+    margin-right: 1rem;
+}
+.information-dr{
+    display: flex;
+    flex-direction: column;
+}
+.dr-title-1{
+    display: block;
+    font-weight: 800;
+    color: var(--color-brown);
+    font-size: 1rem;
+}
+.dr-title-2{
+    font-weight: 800;
+    color: var(--color-brown);
+    font-size: 1rem;
+}
+.text-dr{
+    color: var(--color-brown);
+    font-size: 1rem;
+    margin: .5rem 0;
 }
 .contanier-offers{
     display: flex;
@@ -46,13 +90,12 @@ header{
 .img-products{
     display: block;
     margin: 0 auto;
-    width: 86%;
+    width: 80%;
     margin-top: 2rem;
 }
 .container-warranty{
     display: flex;
     flex-direction: column;
-    margin-bottom: var(--margin-sections);
     background-color: var(--color-white);
 }
 .tittle-warranty{
@@ -68,7 +111,38 @@ header{
     margin-bottom: 3rem;
 }
 .information-container{
-
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0px 30px;
+    color: var(--color-brown);
+}
+.list-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.information-container .list-information > div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--color-brown);
+    display: grid;
+    place-content: center;
+}
+.img-information{
+    width: 90%;
+    height: auto;
+    margin-top: .5rem;
+}
+.title-information{
+    margin-top: .3rem;
+    font-size: 1rem;
+}
+.text-information{
+    margin-top: .3rem;
 }
 .benefits-container{
     display: flex;
@@ -106,7 +180,6 @@ header{
 .faq-container{
     display: flex;
     flex-direction: column;
-    margin-bottom: var(--margin-sections);
 }
 #title-faq{
     font-size: 1.8rem;
